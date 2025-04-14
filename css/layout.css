@@ -1,0 +1,131 @@
+html {
+    font-family: gesta, sans-serif;
+}
+
+body {
+    background-color: #cde1dc;
+    /*background-color: #f9f9f6;*/
+    margin: 0;
+
+}
+
+.top-container {
+    /*border: 1px solid yellow;*/
+    height: 100vh;
+
+    .nav {
+        width: 100%;
+        background-color: #fff;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0.75em 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        a {
+            /*border: 1px solid blue;*/
+            text-decoration: none;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+            color: #1E1E1E;
+            padding: 5px 15px;
+            transition: .2s ease-in-out;
+
+            &:hover {
+                color: gray;
+                transform: translateY(-2px);
+            }
+
+            &.active {
+                text-decoration: underline;
+                text-decoration-thickness: 2px;
+                text-underline-offset: 19px;
+            }
+        }
+    }
+
+    .welcome {
+        margin-top: 2em;
+    }
+
+    span.name {
+        color: lightseagreen;
+    }
+
+    .circle {
+        display: flex;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        margin: 2em auto 5em auto;
+        background-color: #fff;
+        transition: .25s ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .description {
+        text-align: center;
+        font-size: 2em;
+        margin: 0 auto 3em auto;
+        font-weight: bold;
+        border: 1px solid blue;
+        color: #1E1E1E;
+    }
+}
+
+.showreel {
+    padding: 2em;
+    border: 1px solid pink;
+    .showreel-video {
+        display: flex;
+        justify-content: center;
+        margin: 1em;
+
+        #video {
+            border: 3px solid black;
+            box-shadow: 2px 2px 4px grey;
+        }
+    }
+}
+.section-divider {
+    background-color: black;
+    height: 2px;
+    margin: auto; /* spacing above/below */
+}
+
+h1 {
+    text-align: center;
+    color: #1E1E1E;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px grey;
+    font-size: 2em;
+    /*border: 1px solid blue;*/
+    margin: 0;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    margin: auto;
+    padding: 12px;
+    color: #1E1E1E;
+    background-color: #f9f9f6;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid #1E1E1E;
+    box-shadow: 3px 3px #1E1E1E;
+    cursor: pointer;
+    bottom: 2rem;
+
+    &:active {
+        box-shadow: none;
+        transform: translate(2px, 2px);
+    }
+}
+
+
