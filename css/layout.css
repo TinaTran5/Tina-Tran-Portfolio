@@ -1,5 +1,5 @@
 html {
-    font-family: gesta, sans-serif;
+    font-family: "gesta", sans-serif;
 }
 
 body {
@@ -20,6 +20,10 @@ body {
         justify-content: flex-end;
         padding: 0.75em 0;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        .logo {
+            margin-left: auto;
+        }
 
         a {
             /*border: 1px solid blue;*/
@@ -76,9 +80,11 @@ body {
     }
 }
 
+
 .showreel {
     padding: 2em;
     border: 1px solid pink;
+    background-color: lightseagreen;
     .showreel-video {
         display: flex;
         justify-content: center;
@@ -90,6 +96,71 @@ body {
         }
     }
 }
+
+.my-clients {
+    height: 65vh;
+    padding: 2em;
+    background-color: #f9f9f6;
+
+    .clients {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /*border: 1px solid green;*/
+        margin-top: 3em;
+
+        .middle {
+            margin-bottom: 5em;
+        }
+
+        .side {
+            margin-top: 5em;
+        }
+
+        .client {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /*border: 1px dashed blue;*/
+
+            div {
+                display: flex;
+                /*flex-direction: row;*/
+                /*border: 1px solid purple;*/
+                margin: 0;
+            }
+        }
+
+        .client-name {
+            /*border: 1px solid red;*/
+            margin: 0;
+            text-transform: uppercase;
+            color: #1E1E1E;
+        }
+
+        .subscribers {
+            margin: 0;
+        }
+
+        .client-logo {
+            width: 125px;
+            margin: .5em;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #f9f9f6;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    }
+}
+
+h2 {
+    border: 1px dashed black;
+
+}
+
+
+
 .section-divider {
     background-color: black;
     height: 2px;
