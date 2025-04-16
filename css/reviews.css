@@ -1,10 +1,10 @@
 .reviews-container {
-    background-color: #001e45;
+    background-color: whitesmoke;
     padding: 2em 0;
 
     h1 {
         margin-bottom: 1em;
-        color: white;
+        color: black;
     }
 
     .review-title {
@@ -18,21 +18,21 @@
         padding: 1em;
         /*border: 1px solid blue;*/
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         gap: 25px;
 
-        &:nth-child(even) {
-            background-image: linear-gradient(#001e45, #00193b, #001e45);
-        }
+        /*&:nth-child(even) {*/
+        /*    background-color: antiquewhite;*/
+        /*}*/
 
         p {
             /*border: 1px solid red;*/
             font-size: 1.5em;
             text-align: center;
             /*font-style: italic;*/
-            color: white;
-            font-family: "ccsignlanguage", sans-serif;
+            color: black;
+            font-family: gesta, sans-serif;
         }
 
         .logos {
@@ -53,7 +53,7 @@
                 /*border: 1px solid blue;*/
                 font-family: gesta, sans-serif;
                 font-size: .75em;
-                margin: 2px;
+                margin: 7px;
                 justify-content: center;
                 align-items: center;
             }

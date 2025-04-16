@@ -1,23 +1,28 @@
 
 .my-clients {
-    border: 1px solid red;
-    height: 60vh;
-    padding: 2em;
+    /*border: 5px solid red;*/
+    height: 40%;
     background-color: #f9f9f6;
+    padding: 1em;
+    h1 {
 
+        margin: 1em;
+    }
     .clients {
+        /*border: 5px solid blue;*/
         display: flex;
-        justify-content: space-evenly;
+        gap: 150px;
+        justify-content: center;
         align-items: center;
         /*border: 1px solid green;*/
-        margin-top: 3em;
 
         .middle {
-            margin-bottom: 5em;
+            /*border: 5px solid purple;*/
+            margin-bottom: 3em;
         }
 
         .side {
-            margin-top: 5em;
+            margin-top: 3em;
         }
 
         .client {
@@ -25,12 +30,11 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            /*border: 1px dashed blue;*/
+            /*border: 5px solid orange;*/
 
             div {
                 display: flex;
-                /*flex-direction: row;*/
-                /*border: 1px solid purple;*/
+                /*border: 5px solid orange;*/
                 margin: 0;
             }
         }
