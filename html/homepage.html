@@ -6,6 +6,8 @@
     <title>Tina's Portfolio</title>
     <link rel="stylesheet" href="https://use.typekit.net/hwk8evb.css"> <!-- gesta font -->
     <link rel="stylesheet" type="text/css" href="/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="/css/clients.css">
+    <link rel="stylesheet" type="text/css" href="/css/reviews.css">
 </head>
 <body>
 
@@ -24,7 +26,7 @@
             </nav>
         </header>
 
-        <!-- Homepage Container  -->
+<!--         Homepage Container  -->
         <section class="home">
             <!-- TODO: Add welcome text animation -->
             <h1 class="welcome">WELCOME!</h1>
@@ -34,6 +36,7 @@
             <p class="description">
                 Hi, I'm <span class="name">Tina Tran</span>.<br> I'm a Freelance Video Editor.
             </p>
+<!--            <a href="#showreel" class="btn">Check out my stuff</a>-->
 
             <!-- bookmark link -->
         </section>
@@ -59,12 +62,10 @@
             </iframe>
         </div>
         <div>
-            <button class="work-btn btn">Work with me</button>
+            <button class="btn work-btn">Work with me</button>
         </div>
     </section>
 
-
-    <!-- TODO: -->
     <!-- Clients Container -->
     <div class="section-divider"></div>
     <section class="my-clients">
@@ -88,12 +89,47 @@
         </div>
     </section>
 
-    <!-- Reviews Container -->
-<!--    <div class="section-divider"></div>-->
-<!--    <section class="reviews"><h1>Reviews</h1></section>-->
+<!--     Reviews Container-->
+    <div class="section-divider"></div>
+
+    <section class="reviews-container">
+        <div class="review-title">
+            <img src="/imgs/star.png" alt="Star" class="star">
+            <h1>Reviews</h1>
+            <img src="/imgs/star.png" alt="Star" class="star flip">
+        </div>
+        <div class="reviews">
+            <div class="logos">
+                <img src="/imgs/honor.jpg" class="client-logo" alt="Honor">
+                <p class="subscribers">428K subscribers</p>
+            </div>
+            <p>"Incredible editing within a short amount of time<br>
+                and great with commuication :D"</p>
+        </div>
+        <div class="reviews">
+            <p>"Excellent at revisions + on time!"</p>
+            <div class="logos">
+                <img src="/imgs/jackthebus.jpg" alt="Jack the Bus" class="client-logo">
+                <p class="subscribers">327K subscribers</p>
+            </div>
+
+        </div>
+
+        <div class="reviews">
+            <div class="logos">
+                <img src="/imgs/kisab.webp" alt="kisab" class="client-logo">
+                <p class="subscribers">40K subscribers</p>
+            </div>
+            <p>"Great communication and the end result was wonderful! Thank you!"</p>
+        </div>
+    </section>
+
+    <section class="programs">
+
+    </section>
 <!--    &lt;!&ndash; Footer Container &ndash;&gt;-->
 <!--    <div class="section-divider"></div>-->
-<!--    <footer class="footer"><h1></h1></footer>-->
+<!--    <footer class="footer">&copy Tina Tran 2025</footer>-->
 </section>
 </body>
 </html>
