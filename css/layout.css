@@ -1,24 +1,26 @@
-html {
+html, body {
     font-family: "gesta", sans-serif;
-}
-
-body {
-    background-color: #cde1dc;
+    background-color: #DBF2EF;
+    /*background-color: #cde1dc;*/
     /*background-color: #f9f9f6;*/
     margin: 0;
-
+    scroll-behavior: smooth;
 }
 
 .top-container {
     /*border: 1px solid yellow;*/
+    background-image: url("/imgs/hero.svg");
+    background-position: center;
+    background-size: cover;
+
     height: 100vh;
 
     .nav {
-        border: 2px solid blue;
+        padding: 5px;
+        /*border: 2px solid blue;*/
         display: flex;
         justify-content: space-between;
-        background-color: #f9f9f6;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background-color: #2C3B53;
 
         .left {
             display: flex;
@@ -34,7 +36,7 @@ body {
                 text-decoration: none;
                 text-transform: uppercase;
                 text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-                color: #1E1E1E;
+                color: white;
                 padding: 5px 15px;
                 transition: .2s ease-in-out;
 
@@ -51,55 +53,89 @@ body {
             }
         }
     }
-
-    .welcome {
-        margin-top: 2em;
-    }
-
-    span.name {
-        color: lightseagreen;
-    }
-
-    span.small {
-        font-size: .75em;
-    }
-
-    .circle {
+    .home-content {
         display: flex;
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-        margin: 2em auto 5em auto;
-        background-color: #fff;
-        transition: .25s ease-in-out;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 90vh;
 
-        &:hover {
-            transform: scale(1.05);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        .info {
+            .welcome {
+                margin-top: 2em;
+            }
+
+            span.name {
+                color: lightseagreen;
+            }
+
+            span.small {
+                font-size: .75em;
+            }
+
+            .circle {
+                display: flex;
+                height: 150px;
+                width: 150px;
+                border-radius: 50%;
+                margin: 2em auto 5em auto;
+                background-color: #fff;
+                transition: .25s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.05);
+                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+                }
+            }
+
+            .description {
+                text-align: center;
+                font-size: 1.75em;
+                margin: 0 auto 3em auto;
+                font-weight: bold;
+                border: 1px solid blue;
+                /*color: #1E1E1E;*/
+                /*color: #352628;*/
+                color: white;
+            }
+        }
+
+        .down {
+            /*border: 5px solid green;*/
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            animation: MoveUpDown 1.5s infinite ease-in-out;
+
+            .down-arrow {
+                width: 50px;
+
+            }
         }
     }
+}
 
-    .description {
-        text-align: center;
-        font-size: 1.75em;
-        margin: 0 auto 3em auto;
-        font-weight: bold;
-        border: 1px solid blue;
-        color: #1E1E1E;
+@keyframes MoveUpDown {
+    0%, 100% {
+        transform: translateY(0)
     }
-
-
+    50% {
+        transform: translateY(-25%)
+    }
 }
 
 
 .showreel {
+    border: 1px solid red;
     padding: 2em;
-    border: 1px solid pink;
-    background-color: lightseagreen;
+    background-color: #DBF2EF;
+
+    h1 {
+        color: black;
+    }
     .showreel-video {
         display: flex;
         justify-content: center;
-        margin: 1em;
+        margin: 2em;
 
         #video {
             border: 3px solid black;
@@ -107,7 +143,6 @@ body {
         }
     }
 }
-
 
 .section-divider {
     background-color: black;
@@ -117,7 +152,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #1E1E1E;
+    color: white;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px grey;
     font-size: 2em;
@@ -125,11 +160,13 @@ h1 {
     margin: 0;
 }
 
+.btn-wrapper {
+    text-align: center;
+}
+
 .btn {
     text-decoration: none;
     text-transform: uppercase;
-    display: flex;
-    margin: auto;
     padding: 12px;
     color: #1E1E1E;
     background-color: #f9f9f6;
@@ -170,3 +207,5 @@ h1 {
         border-radius: 50%;
     }
 }
+
+

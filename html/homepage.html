@@ -18,14 +18,13 @@
             <nav class="nav">
                 <!-- name/title -->
                 <div class="left">
-<!--                    <p>Tina Tran</p>-->
                     <img src="/imgs/logo-placeholder.png" alt="logo" width="100px">
                 </div>
                 <div class="right">
-                <a href="#" class="active">Home</a>
-                <a href="/html/about.html">About</a>
-                <a href="/html/videos.html">Videos</a>
-                <a href="/html/contact.html">Contact</a>
+                    <a href="#" class="active">Home</a>
+                    <a href="/html/about.html">About</a>
+                    <a href="/html/videos.html">Videos</a>
+                    <a href="/html/contact.html">Contact</a>
                 </div>
             </nav>
         </header>
@@ -33,21 +32,25 @@
 <!--         Homepage Container-->
         <section class="home">
             <!-- TODO: Add welcome text animation -->
-            <h1 class="welcome">WELCOME!</h1>
-            <!-- TODO: replace circle with logo/image -->
-            <span class="circle"></span>
-            <!-- short description -->
-            <p class="description">
-                Hi, I'm <span class="name">Tina Tran</span>.<br>
-                I'm a Freelance Video Editor.<br>
-<!--                <span class="small">I promise to do my best on your videos :)</span>-->
-            </p>
-<!--            <a href="#showreel" class="btn">Check out my stuff</a>-->
+            <div class="home-content">
+                <div class="info">
+                    <h1 class="welcome">WELCOME!</h1>
+                    <!-- TODO: replace circle with logo/image -->
+                    <span class="circle"></span>
+                    <!-- short description -->
+                    <p class="description">
+                        Hi, I'm <span class="name">Tina Tran</span>.<br>
+                        I'm a Freelance Video Editor.<br>
+        <!--                <span class="small">I help content creators make awesome videos :)</span>-->
+                    </p>
+                </div>
+                <div class="down">
+                    <a href="#showreel"><img src="/imgs/down-arrow.svg" alt="down-arrow" class="down-arrow"></a>
+                </div>
+            </div>
         </section>
     </section>
 
-<!--     TODO: Add layout transitions-->
-    <div class="section-divider"></div>
 
 <!--     Showreel Container-->
     <section class="showreel" id="showreel">
@@ -65,7 +68,7 @@
                 allowfullscreen>
             </iframe>
         </div>
-        <div>
+        <div class="btn-wrapper">
             <button class="btn work-btn">Work with me</button>
         </div>
     </section>
@@ -73,7 +76,7 @@
     <!-- Clients Container -->
     <div class="section-divider"></div>
     <section class="my-clients">
-        <h1>Clients</h1>
+        <h1>Top Clients</h1>
         <div class="clients">
             <div class="client side">
                 <div><h3 class="client-name">SopoSquad</h3></div>
@@ -107,8 +110,7 @@
                 <img src="/imgs/honor.jpg" class="client-logo" alt="Honor">
                 <p class="subscribers">428K subscribers</p>
             </div>
-            <p>"Incredible editing within a short amount of time<br>
-                and great with commuication :D"</p>
+            <p>"Incredible editing within a short amount of time and great with commuication :D"</p>
         </div>
         <div class="reviews">
             <div class="logos">
@@ -133,6 +135,5 @@
     <!-- Footer Container -->
     <div class="section-divider"></div>
     <footer class="footer">&copy Tina Tran 2025</footer>
-</section>
 </body>
 </html>

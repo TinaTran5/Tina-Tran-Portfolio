@@ -2,16 +2,16 @@
 .my-clients {
     /*border: 5px solid red;*/
     height: 40%;
-    background-color: #f9f9f6;
+    background-color: #785775;
     padding: 1em;
     h1 {
-
+        /*color: white;*/
         margin: 1em;
     }
     .clients {
         /*border: 5px solid blue;*/
         display: flex;
-        gap: 150px;
+        gap: 200px;
         justify-content: center;
         align-items: center;
         /*border: 1px solid green;*/
@@ -43,11 +43,13 @@
             /*border: 1px solid red;*/
             margin: 0;
             text-transform: uppercase;
-            color: #1E1E1E;
+            /*color: #1E1E1E;*/
+            color: white;
         }
 
         .subscribers {
             margin: 0;
+            color: white;
         }
 
         .client-logo {
