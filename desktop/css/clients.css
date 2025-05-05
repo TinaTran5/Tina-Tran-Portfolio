@@ -1,0 +1,66 @@
+.my-clients {
+    /*background-color: #393c3c;*/
+    background: url("/assets/backgrounds/client.jpg");
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    padding: 4em;
+    margin-top: -1px;
+    h1 {
+        margin: 1em;
+    }
+    .clients {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 10em;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+
+
+        .middle {
+            margin-bottom: 3em;
+        }
+
+        .side {
+            margin-top: 3em;
+        }
+
+        .client {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            div {
+                margin: 0;
+            }
+        }
+
+        .client-name {
+            margin: 0;
+            text-transform: uppercase;
+            color: white;
+        }
+
+        .subscribers {
+            margin: 0;
+            color: white;
+        }
+
+        .client-logo {
+            width: 125px;
+            margin: .5em;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #f9f9f6;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+}

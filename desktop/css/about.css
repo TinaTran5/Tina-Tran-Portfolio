@@ -1,0 +1,56 @@
+.contact-container {
+    /*background-color: #1E1E1E;*/
+    background: url("/assets/backgrounds/about-contact.jpg");
+    background-size: cover;
+    padding-top: 3em;
+    height: 80vh;
+}
+
+.btm-container {
+    /*border: 1px solid green;*/
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+
+    .about-container {
+        /*border: 1px solid red;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        margin: 0;
+
+        img {
+            margin-top: 1em;
+            border-radius: 5px;
+        }
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        border-radius: 5px;
+
+        .send {
+            margin-top: 20px;
+            width: 100%;
+            font-size: 1em;
+        }
+    }
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1em;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+li {
+    font-size: 1.5em;
+    color: white;
+}

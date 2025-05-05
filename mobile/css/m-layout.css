@@ -1,0 +1,112 @@
+@media screen and (max-width: 768px) {
+    .home-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .profile {
+            width: 150px;
+        }
+
+        .description {
+            font-size: 1.1em;
+        }
+    }
+
+    .showreel-video video {
+        width: 100%;
+        height: auto;
+    }
+
+    .clients {
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+    }
+
+    .my-clients {
+        padding: 2em;
+        background-position: center;
+
+        h1 {
+            font-size: 1.5em;
+            margin: 0.5em 0;
+        }
+
+        .clients {
+            flex-direction: column;
+            gap: 2em;
+
+            .client {
+                .client-logo {
+                    width: 100px;
+                }
+
+                .client-name,
+                .subscribers {
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+
+    .reviews {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .btm-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+
+        .about-container,
+        .form-container {
+            width: 90%;
+            max-width: 500px;
+            padding: 1em;
+        }
+
+        .aboutme-pic img {
+            width: 100%;
+            max-width: 250px;
+        }
+    }
+
+    form {
+        width: 100%;
+
+        input,
+        textarea {
+            width: 100%;
+            font-size: 1em;
+        }
+
+        .send {
+            font-size: 1em;
+            padding: 0.75em;
+        }
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .btn.work-btn {
+        justify-content: center;
+        gap: 0.5em;
+    }
+
+    footer {
+        text-align: center;
+        padding: 1em;
+        font-size: 0.9em;
+    }
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
