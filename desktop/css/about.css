@@ -1,6 +1,6 @@
 .contact-container {
     /*background-color: #1E1E1E;*/
-    background: url("/layout-assets/backgrounds/about-contact.jpg");
+    background: url("layout-assets/backgrounds/about-contact.jpg");
     background-size: cover;
     padding-top: 3em;
     height: 80vh;
