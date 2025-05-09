@@ -28,3 +28,4 @@ The site highlights my editing style, presents selected work, and provides a cle
 5. **Multi-Viewport Support:** Created distinct designs for both desktop and mobile to ensure usability across devices
 
 
+# Mobile-Layout
