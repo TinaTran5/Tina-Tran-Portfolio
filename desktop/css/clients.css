@@ -1,6 +1,6 @@
 .my-clients {
     /*background-color: #393c3c;*/
-    background: url("layout-assets/backgrounds/client.jpg");
+    background: url("../../layout-assets/backgrounds/client.jpg");
     background-size: cover;
     /*background-repeat: no-repeat;*/
     padding: 4em;
