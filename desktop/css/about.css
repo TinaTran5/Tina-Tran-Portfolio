@@ -1,6 +1,6 @@
 .contact-container {
     /*background-color: #1E1E1E;*/
-    background: url("/assets/backgrounds/about-contact.jpg");
+    background: url("/layout-assets/backgrounds/about-contact.jpg");
     background-size: cover;
     padding-top: 3em;
     height: 80vh;
@@ -23,6 +23,7 @@
         img {
             margin-top: 1em;
             border-radius: 5px;
+            /*box-shadow: 2px 2px 1p;*/
         }
     }
 
@@ -34,10 +35,16 @@
         padding: 30px;
         border-radius: 5px;
 
+        input, textarea {
+            box-shadow: 2px 2px #f48fb1;
+        }
+
         .send {
             margin-top: 20px;
             width: 100%;
             font-size: 1em;
+            border: none;
+            box-shadow: 3px 3px #f48fb1;
         }
     }
 }

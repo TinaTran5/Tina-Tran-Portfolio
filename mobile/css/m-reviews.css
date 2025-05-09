@@ -3,13 +3,8 @@
     background-color: #393c3c;
 
     h1 {
-        margin: 1em;
-    }
-    .review-title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
+        /*border: 1px solid red;*/
+        margin-bottom: 1em;
     }
 
     .reviews {
