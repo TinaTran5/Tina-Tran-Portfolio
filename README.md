@@ -14,6 +14,7 @@ The site highlights my editing style, presents selected work, and provides a cle
 
 ## What I Learned
 - Layouts for **desktop and mobile**
+  - Mobile-layout: https://tinatran5.github.io/Mobile-Layout/
 - Wireframing and UI design in **Figma**
   - Figma Sketch: https://www.figma.com/design/aVTejOEmr1ANOoo9x2jD9u/Portfolio?t=aDZsnQddOTXKSCAK-1
 - Front-end development using **HTML, CSS, and JavaScript**
